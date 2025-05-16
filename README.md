@@ -18,6 +18,7 @@
   - [Días 57-63: Git](#días-57-63-git)
   - [Días 64-70: ELK](#días-64-70-elk)
   - [Días 71-77: Plataformas en la Nube](#días-71-77-plataformas-en-la-nube)
+  - [Días 78-84: Seguridad Avanzada en la Nube](#días-78-84-seguridad-avanzada-en-la-nube)
   - [Días 85-90: Hacking Ético](#días-85-90-hacking-ético)
   - [Días 91-92: Currículum de una Página](#días-91-92-currículum-de-una-página)
   - [Días 93-95: Dónde y Cómo Postular](#días-93-95-dónde-y-cómo-postular)
@@ -96,15 +97,21 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 
 ### Días 29-42: Python
 
-- Curso Learn Python de Codecademy  
-  [Codecademy Python](https://www.codecademy.com/learn/learn-python-3)
-- Recursos adicionales:  
-  - [python.org](https://www.python.org/)  
-  - [Real Python](https://realpython.com/)  
-  - Podcast: Talk Python to Me  
-  - Libro: Learn Python the Hard Way  
-  - Practicar en HackerRank Python  
-- Curso en YouTube: The Cyber Mentor
+**Curso Principal:**
+
+- [Learn Python - Codecademy](https://www.codecademy.com/learn/learn-python)
+
+**Recursos adicionales:**
+
+- [Python.org (Documentación oficial)](https://www.python.org/)
+- [Real Python (Tutoriales prácticos)](https://realpython.com/)
+- [Talk Python to Me (Podcast)](https://talkpython.fm/)
+- [Learn Python the Hard Way (Libro)](https://learnpythonthehardway.org)
+- [HackerRank - Python Challenges](https://www.hackerrank.com/domains/tutorials/10-days-of-python)
+
+**Curso en YouTube:**
+
+- [Python for Beginners - The Cyber Mentor](https://www.youtube.com/watch?v=2Fp1N6dof0Y&ab_channel=TheCyberMentor)
 
 ### Días 43-56: Análisis de Tráfico
 
@@ -138,7 +145,7 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 - Tutoriales en Elastic  
   [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
 
- ### Días 71-77: Plataformas en la Nube
+### Días 71-77: Plataformas en la Nube
 
 Cualquiera de estas plataformas es válida para empezar:
 
@@ -173,27 +180,44 @@ Cualquiera de estas plataformas es válida para empezar:
   [Azure Hands-on Labs](https://azure.microsoft.com/en-us/resources/hands-on-labs/)
 
 ---
-
 ### Días 78-84: Seguridad Avanzada en la Nube
 
 Durante estos días, profundizaremos en prácticas esenciales para asegurar los entornos en la nube:
 
 - **Configuración segura de IAM (Identity and Access Management)**  
-  Aprende a gestionar permisos y roles para minimizar riesgos.
+  Aprende a gestionar permisos y roles para minimizar riesgos.  
+  Recursos:  
+  - [AWS IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)  
+  - [Google Cloud IAM Overview](https://cloud.google.com/iam/docs/overview)  
+  - [Azure IAM and RBAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
+
 - **Encriptación de datos en tránsito y reposo**  
-  Implementa mecanismos para proteger la confidencialidad.
+  Implementa mecanismos para proteger la confidencialidad.  
+  Recursos:  
+  - [AWS Encryption Overview](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/introduction.html)  
+  - [Google Cloud Encryption](https://cloud.google.com/security/encryption-at-rest)  
+  - [Azure Storage Encryption](https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption)
+
 - **Monitorización y auditoría de recursos cloud**  
-  Usa herramientas para detectar actividad sospechosa.
+  Usa herramientas para detectar actividad sospechosa.  
+  Recursos:  
+  - [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)  
+  - [Google Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)  
+  - [Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
+
 - **Automatización de seguridad**  
-  Introducción a Infrastructure as Code (IaC) para seguridad eficiente.
+  Introducción a Infrastructure as Code (IaC) para seguridad eficiente.  
+  Recursos:  
+  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/)  
+  - [Terraform by HashiCorp](https://www.terraform.io/)  
+  - [Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/)
+
 - **Prácticas recomendadas para protección contra ataques comunes**  
-  Prevención de ataques DDoS, inyección de código y más.
-
-Recursos recomendados:
-
-- [AWS Security Best Practices](https://aws.amazon.com/architecture/security-best-practices/)
-- [Google Cloud Security Overview](https://cloud.google.com/security/overview)
-- [Azure Security Documentation](https://learn.microsoft.com/en-us/azure/security/)
+  Prevención de ataques DDoS, inyección de código y más.  
+  Recursos:  
+  - [AWS Security Best Practices](https://aws.amazon.com/architecture/security-best-practices/)  
+  - [Google Cloud Security Overview](https://cloud.google.com/security)  
+  - [Azure Security Documentation](https://learn.microsoft.com/en-us/azure/security/)
 
 ---
 
@@ -215,12 +239,23 @@ Comienza a aplicar tus conocimientos de forma práctica y ética:
 
 Crea un CV profesional enfocado en ciberseguridad:
 
-- Plantillas recomendadas:  
-  [Plantilla en Bowtied Cyber](https://bowtiedcyber.substack.com/p/killer-cyber-resume-part-ii)  
-  [Ejemplos en Indeed](https://www.indeed.com/career-advice/resumes-cover-letters/cybersecurity-resume)
-- Consejos para destacar habilidades técnicas y experiencia.
-- Cómo redactar un resumen profesional atractivo.
+- **Plantillas recomendadas:**
+  - [Plantilla en Bowtied Cyber](https://bowtiedcyber.substack.com/p/killer-cyber-resume-part-ii)
+  - [Ejemplos en Indeed](https://www.indeed.com/career-advice/resumes-cover-letters/cybersecurity-resume)
+  - [Resume-Now Cybersecurity Template](https://www.resume-now.com/templates/cyber-security-resume)
 
+- **Consejos clave:**
+  - Destaca tus habilidades técnicas, certificaciones y experiencia relevante.
+  - Incluye un resumen profesional claro y conciso.
+  - Muestra logros medibles si es posible (por ejemplo, “automatización que redujo el tiempo de escaneo en 30%”).
+  - Usa una estructura limpia y bien organizada (de preferencia en una página).
+
+- **Secciones recomendadas:**
+  - Resumen Profesional
+  - Habilidades Técnicas
+  - Certificaciones
+  - Experiencia Profesional
+  - Educación
 ---
 
 ### Días 93-95: Dónde y Cómo Postular
@@ -234,7 +269,7 @@ Prepárate para tu búsqueda de empleo en ciberseguridad:
 - Estrategias para entrevistas técnicas y de comportamiento.
 - Cómo construir y aprovechar tu red profesional.
 
-   ---
+---
 
 ## Contribuciones
 
@@ -262,4 +297,4 @@ Gracias a todos los que han contribuido directa o indirectamente a este proyecto
 ¡Gracias por estudiar ciberseguridad con nosotros!  
 Si tienes dudas o sugerencias, no dudes en abrir un issue o contactarme.
 
---- 
+---
