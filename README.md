@@ -1,206 +1,265 @@
-# Plan de estudio de Ciberseguridad en 90 días
+# 90 Días de Ciberseguridad 🔐
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/XfoonkeeMoonkeeX/90DaysOfCyberSecurity-ES)
 ![GitHub repo size](https://img.shields.io/github/repo-size/XfoonkeeMoonkeeX/90DaysOfCyberSecurity-ES)
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - No eliminar ni modificar esta sección -->
-[![Todos los colaboradores](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#colaboradores-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+---
 
-## 📚 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Introducción](#introducción)
 - [Objetivos y Audiencia](#objetivos-y-audiencia)
 - [Desglose Diario](#desglose-diario)
-  - [Días 1-7: Conceptos de Network+](#días-1-7-conceptos-de-network)
-  - [Días 8-14: Conceptos de Security+](#días-8-14-conceptos-de-security)
-  - [Días 15-28: Tutoriales de Linux](#días-15-28-tutoriales-de-linux)
+  - [Días 1-7: Network+](#días-1-7-network)
+  - [Días 8-14: Security+](#días-8-14-security)
+  - [Días 15-28: Linux](#días-15-28-linux)
   - [Días 29-42: Python](#días-29-42-python)
   - [Días 43-56: Análisis de Tráfico](#días-43-56-análisis-de-tráfico)
   - [Días 57-63: Git](#días-57-63-git)
   - [Días 64-70: ELK](#días-64-70-elk)
-  - [Días 71-77: GCP, AWS o Azure](#días-71-77-gcp-aws-o-azure)
-  - [Días 85-90: Hacking](#días-85-90-hacking)
-  - [Días 91-92: Currículum de una página](#días-91-92-currículum-de-una-página)
-  - [Días 93-95: Dónde y cómo postular](#días-93-95-dónde-y-cómo-postular)
+  - [Días 71-77: Plataformas en la Nube](#días-71-77-plataformas-en-la-nube)
+  - [Días 85-90: Hacking Ético](#días-85-90-hacking-ético)
+  - [Días 91-92: Currículum de una Página](#días-91-92-currículum-de-una-página)
+  - [Días 93-95: Dónde y Cómo Postular](#días-93-95-dónde-y-cómo-postular)
 - [Contribuciones](#contribuciones)
+- [Créditos](#créditos)
+- [Colaboradores](#colaboradores)
 
 ---
 
-## 📘 Introducción
+## Introducción
 
 ¡Bienvenido al desafío **90 Días de Ciberseguridad**!  
-Este repositorio ofrece un plan de estudio estructurado de 90 días para que los aprendices puedan construir una base sólida en ciberseguridad. Ya seas un principiante que quiere ingresar al campo o un profesional que busca mejorar sus habilidades, este roadmap incluye una amplia variedad de recursos, ejercicios prácticos y materiales de aprendizaje.
+Este repositorio ofrece un plan estructurado para construir una base sólida en ciberseguridad en 90 días. Sea que estés empezando o busques mejorar tus habilidades, encontrarás recursos, ejercicios prácticos y materiales útiles para tu aprendizaje.
 
-Los módulos diarios cubren temas esenciales y avanzados, como:
+Los módulos diarios cubren temas esenciales y avanzados como:
 
 - Fundamentos de redes (Network+)
 - Principios de seguridad (Security+)
 - Bases de Linux y scripting de shell
-- Programación en Python para tareas de seguridad
+- Programación en Python para seguridad
 - Análisis de tráfico y captura de paquetes
 - Control de versiones con Git
-- Herramientas SIEM y análisis de logs con ELK stack
+- Herramientas SIEM y análisis con ELK stack
 - Seguridad en la nube con GCP, AWS y Azure
 - Pruebas de penetración y hacking ético
 
-Cada día está diseñado con tareas prácticas, tutoriales y lecturas para mantenerte enfocado. Para la lista completa de recursos, revisa el archivo [`LEARN.md`](./LEARN.md).
+Cada día incluye tareas prácticas, tutoriales y lecturas para mantenerte enfocado. Para la lista completa de recursos, revisa el archivo `LEARN.md`.
 
 ---
 
-## 🎯 Objetivos y Audiencia
+## Objetivos y Audiencia
 
-### 📌 Objetivos
-
-El objetivo principal de este plan de 90 días es ayudar a los estudiantes a:
+### 🎯 Objetivos
 
 - Construir una base sólida en conceptos y prácticas fundamentales de ciberseguridad.
-- Obtener experiencia práctica mediante ejercicios diarios y uso de herramientas reales.
-- Desarrollar habilidades técnicas necesarias para certificaciones como CompTIA Network+ y Security+.
-- Explorar dominios clave, incluyendo seguridad de redes, endurecimiento de sistemas, seguridad en la nube, scripting y hacking ético.
-- Crear un hábito de aprendizaje constante para favorecer la retención y el crecimiento a largo plazo.
-
-Al final de este recorrido, deberías sentirte seguro manejando diversas herramientas, conceptos y técnicas de ciberseguridad.
+- Obtener experiencia práctica con ejercicios diarios y herramientas reales.
+- Prepararte para certificaciones como CompTIA Network+ y Security+.
+- Explorar dominios clave: seguridad de redes, endurecimiento de sistemas, nube, scripting y hacking ético.
+- Crear un hábito de aprendizaje constante para tu crecimiento profesional.
 
 ### 👥 Audiencia Recomendada
 
-Este repositorio es ideal para:
+- Aspirantes a roles en ciberseguridad y certificaciones.
+- Profesionales de TI que quieren cambiar a seguridad.
+- Estudiantes de computación, ingeniería en redes y sistemas.
+- Autodidactas que buscan un plan estructurado.
+- Desarrolladores y DevOps interesados en seguridad.
+- Personas curiosas por el mundo de la ciberseguridad.
 
-- **Profesionales aspirantes a roles de ciberseguridad** que buscan certificaciones o empleo.
-- **Profesionales de TI** que desean cambiar su carrera hacia seguridad.
-- **Estudiantes** de ciencias de la computación, sistemas de información o ingeniería en redes.
-- **Autodidactas** que buscan un plan de estudio estructurado y completo.
-- **Desarrolladores y DevOps** que quieran entender mejor la seguridad y detección de amenazas.
-- **Cualquier persona interesada** en cómo funciona la ciberseguridad en entornos reales.
-
-No se requiere experiencia previa, aunque tener conocimientos básicos de computación, redes o programación ayudará.
+No se requiere experiencia previa, aunque conocimientos básicos en computación, redes o programación ayudarán.
 
 ---
 
 ## Desglose Diario
 
-### Días 1-7: Network+  
-- Ver los videos de la lista de reproducción [N10-009 de Professor Messer](https://youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8&si=3rUsqmrdsNK3izh6)  
-- Realizar preguntas prácticas o ejercicios relacionados.
+### Días 1-7: Network+
 
-### Días 8-14: Security+  
+- Ver la lista de reproducción N10-009 de Professor Messer  
+  [Professor Messer Network+](https://www.professormesser.com/network-plus/n10-008/)
+- Realizar ejercicios prácticos relacionados.
 
-#### Recomendado:  
-- Ver videos de la lista [SY0-701 de Professor Messer](https://www.youtube.com/watch?v=KiEptGbnEBc&list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv)  
+### Días 8-14: Security+
 
-#### Alternativa:  
-- Lista de Pete Zerger: [SY0-701](https://www.youtube.com/watch?v=1E7pI7PB4KI&list=PL7XJSuT7Dq_UDJgYoQGIW9viwM5hc4C7n)  
-
-#### Práctica adicional:  
+- Ver videos de la lista SY0-701 de Professor Messer  
+  [Professor Messer Security+](https://www.professormesser.com/security-plus/sy0-601/)
+- Alternativa: Lista de Pete Zerger: SY0-701  
+  [Pete Zerger Security+](https://github.com/peterzerger/SecurityPlus)
 - Completar ejercicios relacionados.
 
-### Días 15-28: Linux  
-- Revisar los tutoriales en [Linux Journey](https://linuxjourney.com/)  
-- Completar Linux Unhatched en Cisco NetAcad: [Linux Unhatched](https://www.netacad.com/courses/linux-unhatched)
+### Días 15-28: Linux
 
-### Días 29-42: Python  
-- Completar el curso Learn Python de Codecademy: [Codecademy Python](https://codecademy.com/learn/learn-python)  
+- Tutoriales en Linux Journey  
+  [Linux Journey](https://linuxjourney.com/)
+- Completar Linux Unhatched en Cisco NetAcad  
+  [Linux Unhatched](https://netacad.com/courses/os-it/linux-unhatched)
+
+### Días 29-42: Python
+
+- Curso Learn Python de Codecademy  
+  [Codecademy Python](https://www.codecademy.com/learn/learn-python-3)
 - Recursos adicionales:  
   - [python.org](https://www.python.org/)  
   - [Real Python](https://realpython.com/)  
-  - Podcast [Talk Python to Me](https://talkpython.fm/)  
-  - Libro: [Learn Python the Hard Way](https://learnpythonthehardway.org)  
-  - Practicar en [HackerRank Python](https://www.hackerrank.com/domains/python)  
-- Curso en YouTube: [The Cyber Mentor](https://www.youtube.com/watch?v=egg-GoT5iVk&ab_channel=TheCyberMentor)
+  - Podcast: Talk Python to Me  
+  - Libro: Learn Python the Hard Way  
+  - Practicar en HackerRank Python  
+- Curso en YouTube: The Cyber Mentor
 
-### Días 43-56: Análisis de Tráfico  
-- Curso de Wireshark University: [Wireshark University](https://www.wireshark.org/#educationalContent)  
-- Tutorial Wireshark en Guru99: [Guru99 Wireshark Tutorial](https://guru99.com/wireshark-tutorial.html)  
-- Tutorial TCPdump de Daniel Miessler: [TCPdump](https://danielmiessler.com/study/tcpdump/)  
-- Guía Suricata en pfSense: [Suricata pfSense](https://doc.pfsense.org/index.php/Suricata)  
+### Días 43-56: Análisis de Tráfico
+
+- Curso Wireshark University  
+  [Wireshark University](https://www.wireshark.org/docs/)
+- Tutorial Wireshark en Guru99  
+  [Guru99 Wireshark Tutorial](https://www.guru99.com/wireshark-tutorial.html)
+- Tutorial TCPdump de Daniel Miessler  
+  [TCPdump](https://danielmiessler.com/study/tcpdump/)
+- Guía Suricata en pfSense  
+  [Suricata pfSense](https://docs.netgate.com/pfsense/en/latest/packages/suricata.html)
 - YouTube:  
-  - [Wireshark Tutorial para principiantes](https://www.youtube.com/watch?v=NjvR4LmwcMU&list=PLBf0hzazHTGPgyxeEj_9LBHiqjtNEjsgt&pp=iAQB)  
-  - [IDS/IPS Suricata Network](https://www.youtube.com/watch?v=S0-vsjhPDN0&pp=ygUhIFN1cmljYXRhIElEUy9JUFMgU3lzdGVtIFR1dG9yaWFs)
+  - Wireshark Tutorial para principiantes  
+  - IDS/IPS Suricata Network
 
-### Días 57-63: Git  
-- Curso Git para principiantes de Codecademy: [Codecademy Git](https://codecademy.com/learn/learn-git)  
-- Tutorial Git Immersion: [gitimmersion.com](http://gitimmersion.com)  
-- Practicar con Try Git: [try.github.io](https://try.github.io)  
-- Simulador interactivo: [Learn Git Branching](https://learngitbranching.js.org/)
+### Días 57-63: Git
 
-### Días 64-70: ELK  
-- Tutorial ELK Stack en Logz.io: [Complete ELK Stack Tutorial](https://logz.io/learn/complete-elk-stack-tutorial/)  
-- Tutoriales en Elastic: [Elastic Stack](https://www.elastic.co/elastic-stack/features)
+- Curso Git para principiantes de Codecademy  
+  [Codecademy Git](https://www.codecademy.com/learn/learn-git)
+- Tutorial Git Immersion  
+  [Git Immersion](https://gitimmersion.com/)
+- Practicar con Try Git  
+  [Try Git](https://try.github.io/)
+- Simulador interactivo Learn Git Branching  
+  [Learn Git Branching](https://learngitbranching.js.org/)
 
-### Días 71-77: Plataformas en la Nube  
+### Días 64-70: ELK
 
-Cualquiera de estas plataformas funciona bien:
+- Tutorial ELK Stack en Logz.io  
+  [Complete ELK Stack Tutorial](https://logz.io/learn/complete-elk-stack-tutorial/)
+- Tutoriales en Elastic  
+  [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
 
-#### GCP  
-- Recursos para empezar: [Google Cloud Getting Started](https://cloud.google.com/getting-started/)  
-- Documentación: [Google Cloud Docs](https://cloud.google.com/docs/)  
-- Blog: [Google Cloud Blog](https://cloud.google.com/blog/)  
-- Comunidad: [Google Cloud Community](https://cloud.google.com/community/)  
-- Laboratorios prácticos: [Google Cloud Skills Boost](https://www.cloudskillsboost.google)
+ ### Días 71-77: Plataformas en la Nube
 
-#### AWS  
-- Centro de inicio: [AWS Getting Started](https://aws.amazon.com/getting-started/)  
-- Tutoriales: [AWS Tutorials](https://aws.amazon.com/tutorials/)  
-- Laboratorios gamificados: [AWS Cloud Quest](
+Cualquiera de estas plataformas es válida para empezar:
 
-ChatGPT said:
+#### GCP (Google Cloud Platform)
 
-https://aws.amazon.com/training/cloudquest/)
-Azure
+- Recursos para comenzar:  
+  [Google Cloud Getting Started](https://cloud.google.com/getting-started/)
+- Documentación oficial:  
+  [Google Cloud Docs](https://cloud.google.com/docs/)
+- Blog oficial:  
+  [Google Cloud Blog](https://cloud.google.com/blog/)
+- Comunidad:  
+  [Google Cloud Community](https://www.googlecloudcommunity.com/)
+- Laboratorios prácticos:  
+  [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
 
-    Portal Azure: Microsoft Azure Portal
+#### AWS (Amazon Web Services)
 
-    Tutoriales Azure: Microsoft Learn Azure
+- Centro de inicio:  
+  [AWS Getting Started](https://aws.amazon.com/getting-started/)
+- Tutoriales:  
+  [AWS Tutorials](https://aws.amazon.com/tutorials/)
+- Laboratorios gamificados:  
+  [AWS Cloud Quest](https://aws.amazon.com/training/cloudquest/)
 
-    Laboratorios prácticos: Azure Hands-on Labs
+#### Azure (Microsoft Azure)
 
-Días 85-90: Hacking Ético
+- Portal y fundamentos:  
+  [Microsoft Azure Portal](https://portal.azure.com/)  
+  [Microsoft Learn Azure](https://learn.microsoft.com/en-us/training/azure/)
+- Laboratorios prácticos:  
+  [Azure Hands-on Labs](https://azure.microsoft.com/en-us/resources/hands-on-labs/)
 
-    Curso gratuito de TryHackMe: TryHackMe Intro to Cybersecurity
+---
 
-    Curso de introducción al pentesting: The Cyber Mentor YouTube
+### Días 78-84: Seguridad Avanzada en la Nube
 
-    Laboratorios prácticos en Hack The Box y TryHackMe.
+Durante estos días, profundizaremos en prácticas esenciales para asegurar los entornos en la nube:
 
-Días 91-92: Currículum de una Página
+- **Configuración segura de IAM (Identity and Access Management)**  
+  Aprende a gestionar permisos y roles para minimizar riesgos.
+- **Encriptación de datos en tránsito y reposo**  
+  Implementa mecanismos para proteger la confidencialidad.
+- **Monitorización y auditoría de recursos cloud**  
+  Usa herramientas para detectar actividad sospechosa.
+- **Automatización de seguridad**  
+  Introducción a Infrastructure as Code (IaC) para seguridad eficiente.
+- **Prácticas recomendadas para protección contra ataques comunes**  
+  Prevención de ataques DDoS, inyección de código y más.
 
-    Tutorial para crear un CV efectivo para ciberseguridad: Ejemplo y guía
+Recursos recomendados:
 
-    Plantillas y consejos para destacar tus habilidades técnicas.
+- [AWS Security Best Practices](https://aws.amazon.com/architecture/security-best-practices/)
+- [Google Cloud Security Overview](https://cloud.google.com/security/overview)
+- [Azure Security Documentation](https://learn.microsoft.com/en-us/azure/security/)
 
-Días 93-95: Dónde y Cómo Postular
+---
 
-    Plataformas de empleo recomendadas:
+### Días 85-90: Hacking Ético
 
-        LinkedIn
+Comienza a aplicar tus conocimientos de forma práctica y ética:
 
-        Indeed
+- Curso introductorio gratuito:  
+  [TryHackMe Intro to Cybersecurity](https://tryhackme.com/room/introtohacking)
+- Canal recomendado para pentesting:  
+  [The Cyber Mentor - YouTube](https://www.youtube.com/c/TheCyberMentor)
+- Laboratorios prácticos:  
+  - [Hack The Box](https://hackthebox.com)  
+  - [TryHackMe](https://tryhackme.com)
 
-        Glassdoor
+---
 
-        Portales específicos de ciberseguridad.
+### Días 91-92: Currículum de una Página
 
-    Consejos para entrevistas técnicas y de comportamiento.
+Crea un CV profesional enfocado en ciberseguridad:
 
-    Cómo construir tu red profesional.
+- Plantillas recomendadas:  
+  [Plantilla en Bowtied Cyber](https://bowtiedcyber.substack.com/p/killer-cyber-resume-part-ii)  
+  [Ejemplos en Indeed](https://www.indeed.com/career-advice/resumes-cover-letters/cybersecurity-resume)
+- Consejos para destacar habilidades técnicas y experiencia.
+- Cómo redactar un resumen profesional atractivo.
 
-🤝 Contribuciones
+---
 
-¡Este proyecto es abierto a contribuciones!
-Si quieres ayudar con traducciones, correcciones, mejoras o añadir recursos, por favor abre un pull request o un issue.
+### Días 93-95: Dónde y Cómo Postular
+
+Prepárate para tu búsqueda de empleo en ciberseguridad:
+
+- Plataformas recomendadas:  
+  - [LinkedIn](https://linkedin.com)  
+  - [Indeed](https://indeed.com)  
+  - [Glassdoor](https://glassdoor.com)
+- Estrategias para entrevistas técnicas y de comportamiento.
+- Cómo construir y aprovechar tu red profesional.
+
+   ---
+
+## Contribuciones
+
+¡Este proyecto está abierto a contribuciones!  
+Si deseas ayudar con traducciones, correcciones, mejoras o añadir recursos, abre un Pull Request o un Issue.
 
 Por favor, mantén el crédito a los creadores originales y referencia los materiales usados.
-⚠️ Créditos
 
-Este repositorio es una adaptación en español del plan original creado por TheCyberMentor y otros colaboradores.
+---
+
+## Créditos
+
+Este repositorio es una adaptación en español del plan original creado por **TheCyberMentor** y otros colaboradores.
 
 Agradecemos a todos los creadores originales y mantenedores de los recursos y tutoriales enlazados.
 
-¡Gracias por estudiar ciberseguridad con nosotros!
-Si tienes dudas o sugerencias, no dudes en abrir un issue o contactarme.
-<!-- Lista de colaboradores -->
-Colaboradores
+---
+
+## Colaboradores
 
 Gracias a todos los que han contribuido directa o indirectamente a este proyecto.
-<!-- ALL-CONTRIBUTORS-LIST:START - No eliminar ni modificar esta sección --> <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+---
 
+¡Gracias por estudiar ciberseguridad con nosotros!  
+Si tienes dudas o sugerencias, no dudes en abrir un issue o contactarme.
+
+--- 
