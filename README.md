@@ -76,16 +76,15 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 
 ### Días 1-7: Network+
 
-- Ver la lista de reproducción N10-009 de Professor Messer  
-  [Professor Messer Network+](https://www.professormesser.com/network-plus/n10-008/)
-- Realizar ejercicios prácticos relacionados.
+- Ver la lista de reproducción [N10-009 Playlist](https://youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8&si=3rUsqmrdsNK3izh6)
+- Realizar ejercicios prácticos relacionados.[Professor Messer Network+](https://www.professormesser.com/network-plus/n10-008/)
 
 ### Días 8-14: Security+
 
 - Ver videos de la lista SY0-701 de Professor Messer  
-  [Professor Messer Security+](https://www.professormesser.com/security-plus/sy0-601/)
+  [SY0-701 Playlist](https://www.youtube.com/watch?v=KiEptGbnEBc&list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv)
 - Alternativa: Lista de Pete Zerger: SY0-701  
-  [Pete Zerger Security+](https://github.com/peterzerger/SecurityPlus)
+  [SY0-701 Playlist](https://www.youtube.com/watch?v=1E7pI7PB4KI&list=PL7XJSuT7Dq_UDJgYoQGIW9viwM5hc4C7n) 
 - Completar ejercicios relacionados.
 
 ### Días 15-28: Linux
@@ -93,7 +92,7 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 - Tutoriales en Linux Journey  
   [Linux Journey](https://linuxjourney.com/)
 - Completar Linux Unhatched en Cisco NetAcad  
-  [Linux Unhatched](https://netacad.com/courses/os-it/linux-unhatched)
+  [Linux Unhatched](https://www.netacad.com/courses/linux-unhatched)
 
 ### Días 29-42: Python
 
@@ -107,7 +106,7 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 - [Real Python (Tutoriales prácticos)](https://realpython.com/)
 - [Talk Python to Me (Podcast)](https://talkpython.fm/)
 - [Learn Python the Hard Way (Libro)](https://learnpythonthehardway.org)
-- [HackerRank - Python Challenges](https://www.hackerrank.com/domains/tutorials/10-days-of-python)
+- [HackerRank - Python Challenges](https://www.hackerrank.com/domains/python)
 
 **Curso en YouTube:**
 
@@ -116,7 +115,7 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 ### Días 43-56: Análisis de Tráfico
 
 - Curso Wireshark University  
-  [Wireshark University](https://www.wireshark.org/docs/)
+  [Wireshark University](https://www.wireshark.org/#educationalContent)
 - Tutorial Wireshark en Guru99  
   [Guru99 Wireshark Tutorial](https://www.guru99.com/wireshark-tutorial.html)
 - Tutorial TCPdump de Daniel Miessler  
@@ -141,9 +140,9 @@ No se requiere experiencia previa, aunque conocimientos básicos en computación
 ### Días 64-70: ELK
 
 - Tutorial ELK Stack en Logz.io  
-  [Complete ELK Stack Tutorial](https://logz.io/learn/complete-elk-stack-tutorial/)
+  [Complete ELK Stack Tutorial](https://logz.io/learn/complete-guide-elk-stack/)
 - Tutoriales en Elastic  
-  [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html)
+  [Elastic Stack][https://elastic.co/learn/elastic-stack](https://www.elastic.co/elastic-stack/features)
 
 ### Días 71-77: Plataformas en la Nube
 
@@ -158,7 +157,7 @@ Cualquiera de estas plataformas es válida para empezar:
 - Blog oficial:  
   [Google Cloud Blog](https://cloud.google.com/blog/)
 - Comunidad:  
-  [Google Cloud Community](https://www.googlecloudcommunity.com/)
+  [Google Cloud Community](https://cloud.google.com/community/)
 - Laboratorios prácticos:  
   [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
 
@@ -169,15 +168,15 @@ Cualquiera de estas plataformas es válida para empezar:
 - Tutoriales:  
   [AWS Tutorials](https://aws.amazon.com/tutorials/)
 - Laboratorios gamificados:  
-  [AWS Cloud Quest](https://aws.amazon.com/training/cloudquest/)
+  [AWS Cloud Quest](https://aws.amazon.com/training/digital/aws-cloud-quest/)
 
 #### Azure (Microsoft Azure)
 
 - Portal y fundamentos:  
-  [Microsoft Azure Portal](https://portal.azure.com/)  
-  [Microsoft Learn Azure](https://learn.microsoft.com/en-us/training/azure/)
+  [Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/training/azure/)  
 - Laboratorios prácticos:  
-  [Azure Hands-on Labs](https://azure.microsoft.com/en-us/resources/hands-on-labs/)
+  [Azure Hands-on Labs](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/)
+- [Práctica en máquinas vulnerables en Vulnhub](https://vulnhub.com)
 
 ---
 ### Días 78-84: Seguridad Avanzada en la Nube
