@@ -1,4 +1,6 @@
 # Plan de estudio de Ciberseguridad en 90 días
+![GitHub last commit](https://img.shields.io/github/last-commit/XfoonkeeMoonkeeX/90DaysOfCyberSecurity-ES)
+![GitHub repo size](https://img.shields.io/github/repo-size/XfoonkeeMoonkeeX/90DaysOfCyberSecurity-ES)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - No eliminar ni modificar esta sección -->
 [![Todos los colaboradores](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#colaboradores-)
